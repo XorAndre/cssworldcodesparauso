@@ -12,6 +12,4 @@ iframe,
 main, 
 nav, 
 section, 
-video{
-    width: 100%; /*Propriedade que controla a largura de containers*/
-}
+video{width: 100%; /*Propriedade que controla a largura de containers*/}
