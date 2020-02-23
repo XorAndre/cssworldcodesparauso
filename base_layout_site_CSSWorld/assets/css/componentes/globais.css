@@ -1,12 +1,11 @@
 *{
-    box-sizing: border-box;
-    font: inherit;
-    font-size: 100%;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box; /*Propriedade utilizada para alterar a propriedade padrão da box model*/
+    font-size: 100%; /*Propriedade tamanho da fonte*/
+    line-height: 1.5; /*Propriedade permite controlar o espaçamento entre as linhas de textos*/
+    margin: 0; /*Propriedade permite manipular as margens do documento*/
+    padding: 0; /*Propriedade permite manipular distância entre as bordas do documento*/
 }
-audio, img, iframe, video{height: auto;}
+audio, img, iframe, video{height: auto; /*Propriedade que controla a altura de containers*/}
 audio, 
 img, 
 iframe, 
@@ -14,5 +13,5 @@ main,
 nav, 
 section, 
 video{
-    width: 100%;
+    width: 100%; /*Propriedade que controla a largura de containers*/
 }
